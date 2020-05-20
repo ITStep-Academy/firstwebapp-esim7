@@ -14,10 +14,10 @@
         </div>
         <asp:TextBox ID="TextBox1" placeholder="Введите имя" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
         <p>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Click" />
+            <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
         </p>
         <p>
-            <asp:Label ID="Label1" Visible="false" runat="server"  Text="Label"></asp:Label>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Click" />
         </p>
     </form>
 </body>

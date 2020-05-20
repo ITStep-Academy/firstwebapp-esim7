@@ -16,11 +16,16 @@ namespace first
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Label1.Text = TextBox1.Text;
-            Label1.Visible = true;
+            TextBox2.Text = TextBox1.Text;
+            TextBox1.Text = string.Empty;
         }
 
         protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
